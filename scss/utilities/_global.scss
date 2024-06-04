@@ -1,0 +1,51 @@
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #9b33737e;
+}
+
+h1 {
+    
+    color: $azul;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2opx;
+    margin-bottom: 20px;
+    border: 3px solid $fuscia
+}
+
+h2 {
+    color: $azul;
+    text-align: justify;
+    padding: 30px;
+}
+
+h3 {
+    color: $azul;
+    text-align: justify;
+}
+
+h5 {
+    color: whitesmoke;
+}
+
+h1,
+h2,
+h5 {
+    text-align: center;
+}
+
+p {
+    padding: 40px;
+    color: #333; 
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+

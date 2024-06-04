@@ -1,0 +1,26 @@
+#videoscolabs {
+    display: flex;
+    flex-wrap: wrap; 
+    
+    .box-container {
+        width: 50%; 
+        @media (max-width: 768px) {
+            width: 100%; 
+        }
+
+        .video-container {
+            margin-bottom: 20px; 
+
+            h3 {
+                margin-left: 30px;
+            }
+
+            iframe {
+                width: 90%; 
+                height: 315px; 
+                border: none; 
+                margin-left: 30px;
+            }
+        }
+    }
+}

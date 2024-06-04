@@ -1,0 +1,51 @@
+main {
+    padding: 20px;
+
+    .row {
+        @include flexbox(row, center, center);
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+        .col {
+            flex: 1 1 100%;
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    section {
+        margin-bottom: 30px;
+
+        &#inicio {
+            text-align: center;
+
+            p {
+                padding: 10px;
+            }
+        }
+
+        &#Frescura\ auditiva {
+            h2 {
+                color: $azul;
+                text-align: center;
+                padding: 30px;
+            }
+
+            p {
+                padding: 10px;
+                text-align: justify;
+            }
+
+            video {
+                width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
